@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_country_options">
+        <item>@string/country_DE</item>
+        <item>@string/country_Id</item>
+        <item>@string/country_SG</item>
+    </string-array>
+</resources>

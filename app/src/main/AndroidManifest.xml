@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nayatiapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SpecialRequest"></activity>
+        <activity android:name=".LoginPackage.InfoActivity"></activity>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".test" />
+        <activity android:name=".AddCustomer.CustomerActivity" />
+        <activity android:name=".AddCustomer.EditorAddCustActivity" />
+        <activity android:name=".TrackingPulang.EditorPulangActivity" />
+        <activity android:name=".TrackingPulang.PulangActivity" />
+        <activity android:name=".DashboardActivity">
+        </activity>
+        <activity android:name=".MainActivity2">
+        </activity>
+        <activity android:name=".LoginPackage.RegistrationFragment">
+        </activity>
+        <activity android:name=".LoginPackage.User">
+        </activity>
+        <activity android:name=".LoginPackage.PrefConfig">
+        </activity>
+        <activity android:name=".LoginFragment">
+        </activity>
+        <activity android:name=".LoginPackage.LoginActivity" />
+        <activity android:name=".SubTracking" />
+        <activity android:name=".TrackingDatang.EditorActivity" />
+        <activity android:name=".TrackingDatang.MainActivity" />
+    </application>
+
+</manifest>

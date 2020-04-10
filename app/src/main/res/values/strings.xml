@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NayatiApp</string>
+    <string name="gender_unknown">Unknown</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="ID">ID</string>
+    <string name="DE">DE</string>
+    <string name="SG">SG</string>
+    <string name="country_Id">Indonesia</string>
+    <string name="country_DE">Germany</string>
+    <string name="country_SG">Singapore</string>
+    <string name="TOP1">TOP1</string>
+    <string name="TOP2">TOP2</string>
+    <string name="TOP3">TOP3</string>
+    <string name="Currency1">USD</string>
+    <string name="Currency2">EUR</string>
+    <string name="Currency3">IDR</string>
+    <string name="Category1">ASIA</string>
+    <string name="Category2">EUROPA</string>
+    <string name="Category3">AFRIKA</string>
+    <string name="pref_file" />
+    <string name="pref_login_status" />
+    <string name="pref_email" />
+
+
+</resources>
